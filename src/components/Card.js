@@ -1,11 +1,11 @@
 import React from 'react';
-
+// Card Accept Props
 const Card = ( {name, id, username, email }) => {
     
     return (
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw1 shadow-5'>
             <div>
-                <img alt='photo' src={`https://robohash.org/${id}?200x200`} /> 
+                <img alt='robot' src={`https://robohash.org/${id}?200x200`} /> 
             </div>
             <div>
                 <h4 className='f3'>{name}</h4>
